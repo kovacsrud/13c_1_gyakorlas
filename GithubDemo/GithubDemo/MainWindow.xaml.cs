@@ -20,5 +20,10 @@ namespace GithubDemo
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Gomb 1 katt");
+        }
     }
 }
